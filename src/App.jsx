@@ -119,7 +119,7 @@ function App() {
           path="/barber_details"
           element={
             <ProtectedRoute>
-              <Barber_Details />
+              <Barber_Details  user={user} />
             </ProtectedRoute>
           }
         />

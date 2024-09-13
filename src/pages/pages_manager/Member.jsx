@@ -146,7 +146,7 @@ const Member = ({ user }) => {
                                     {useritem.namembarber}
                                   </td>
                                   <td className="px-12 py-4 text-sm font-medium text-gray-500 dark:text-white whitespace-nowrap">
-                                    {useritem.nameservice}
+                                    {useritem.service}
                                   </td>
                                   <td className="px-12 py-4 text-sm font-medium text-gray-500 dark:text-white whitespace-nowrap">
                                     {useritem.time}
